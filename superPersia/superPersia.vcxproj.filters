@@ -13,10 +13,21 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Config Files">
+      <UniqueIdentifier>{4be11221-4d80-4030-a67f-07dd740fbc87}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\lib\.gitignore">
+      <Filter>Config Files</Filter>
+    </None>
+    <None Include="..\.gitignore">
+      <Filter>Config Files</Filter>
+    </None>
   </ItemGroup>
 </Project>
