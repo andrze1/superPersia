@@ -40,10 +40,10 @@
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
-    <IncludePath>D:\Programy\Freeglut dla vs 2010 ultimate\freeglut\include;$(IncludePath)</IncludePath>
+    <IncludePath>$(SolutionDir)\freeglut\include;$(IncludePath)</IncludePath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
-    <LibraryPath>D:\Programy\Freeglut dla vs 2010 ultimate\freeglut\lib;$(LibraryPath)</LibraryPath>
+    <LibraryPath>$(SolutionDir)\freeglut\lib;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <IncludePath>D:\Programy\Freeglut dla vs 2010 ultimate\freeglut\include;$(IncludePath)</IncludePath>
