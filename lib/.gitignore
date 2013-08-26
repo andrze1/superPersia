@@ -1,8 +1,0 @@
-# Exclude all
-!*
-SFML-2.0/*
-!SFML-2.0/bin
-!SFML-2.0/include
-!SFML-2.0/lib
-!SFML-2.0/readme.txt
-!SFML-2.0/license.txt

@@ -1,0 +1,21 @@
+TODO zwi¹zane z samym silnikiem, a nie z gr¹ Prince of Przemo:
+
+
+I. wy¿szy priorytet:
+
+- obadaæ zasadê wg której trzeba podawaæ takie, a nie inne wartoœci dzielnika w vertex shaderze - byæ mo¿e przyda siê do zmian rozdzielczoœci okna
+- jak maksymalizujê okno, to proces aplikacji nie zabiera wiêcej procesora, natomiast proces "System" zaczyna mocno z¿eraæ procesor. I zmniejsza siê liczba fpsów. Czemu?! Dzieje siê to tylko przy maksymalizacji. Jeœli zwiêkszê zwyczajnie okno do wymiaru kranu, to tego obci¹¿enia ju¿ nie ma. Dzieje siê to zarówno w wersji debug jak i release
+- przy resizowaniu okna obiekty nie zachowuj¹ proporcji w stosunku do okna, tzn. wspó³rzêdne górnych lewych rogów obiektów zmieniaj¹ siê poprawnie, natomiast ich wymiary nie s¹ zmienione.
+zrobiæ liczenie elapsed time do okreœlania prêdkoœci ruchu obiektów. Przyda siê pewnie funkcja z gluta, wykorzystywana ju¿ przy wypisywaniu fpsów
+
+
+II. ni¿szy priorytet:
+
+- zrobiæ obs³ugê sytuacji, gdy wymagana wersja opengla nie jest spe³niona.
+- popróbowaæ z optymalizacj¹: w renderowaniu: mo¿e jakieœ funkcje co siê co klatkê wykonuj¹, wystarczy by by³y tylko raz na pocz¹tku? Itp.
+- potestowaæ co zabiera najwiêcej czasu procesora przy wyœwietlaniu du¿ej iloœci geometrii (potestowaæ które funkcje i wywo³ania zajmuj¹ najwiêcej czasu).
+- dokodziæ opcjê zapisywania debugLoga do pliku zamiast na konsolê.
+
+III. po skoñczeniu gry:
+
+- wywaliæ na koñcu z fragment shadera zmienn¹ timeVar oraz jej zakomentowan¹ obs³ugê w kodzie programu (nieshaderach), je¿eli nie bêdzie przydatna
